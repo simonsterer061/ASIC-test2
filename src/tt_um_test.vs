@@ -1855,7 +1855,7 @@ endpackage
 
 // `SNITCH_ENABLE_PERF Enables mcycle, minstret performance counters (read only)
 
-module snitch #(
+module tt_um_test #(
   // parameter logic [31:0] BootAddr  = 32'h0000_1000,
   // parameter logic [31:0] MTVEC     = BootAddr, // Exception Base Address (see privileged spec 3.1.7)
   // parameter bit          RVE       = 0,   // Reduced-register extension
